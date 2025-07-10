@@ -56,10 +56,10 @@ function Login() {
         </div>
         <div className="login__desc">
           <p>A Place to Share knowledge and better understand the world</p>
-          <p style={{ color: "royalblue", fontSize: "25px" }}>
+          {/* <p style={{ color: "royalblue", fontSize: "25px" }}>
             HandCrafted with ❤️ by{" "}
           </p>
-          <h3>Code With chitranjan</h3>
+          <h3>Code With chitranjan</h3> */}
         </div>
         <div className="login__auth">
           <div className="login__authOptions">
@@ -138,7 +138,7 @@ function Login() {
           <p>Privacy</p>
           <p>Terms</p>
           <p>Contact</p>
-          <p>&copy; Quora Fake Inc. 2025</p>
+          <p>&copy; chitranjan_singh</p>
         </div>
       </div>
     </div>
