@@ -4,7 +4,7 @@ import "firebase/auth";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCC1UsrDv0ss6edgNwLN89P73OkbbgMQ8o",
+  apiKey:  process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "qoura-clone-chitranjan.firebaseapp.com",
   projectId: "qoura-clone-chitranjan",
   storageBucket: "qoura-clone-chitranjan.appspot.com", // ✅ corrected
